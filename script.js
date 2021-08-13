@@ -1,9 +1,9 @@
 const MAPBOX_ACCESS_TOKEN =
-	'pk.eyJ1IjoidGhlbmFtZWlzd2lpd2luIiwiYSI6ImNrc2F4MDFicTAxNmwzMXBpNWN2djEzOTMifQ.jtU6r1V5GtiQ3kLaZfTfVA';
+	// 'Enter Your Token Here';
 
-navigator.geolocation.getCurrentPosition(successLocation, errorLocation, {
-	enableHighAccuracy: true,
-});
+	navigator.geolocation.getCurrentPosition(successLocation, errorLocation, {
+		enableHighAccuracy: true,
+	});
 
 function setupMap(centerPosition) {
 	const map = new mapboxgl.Map({
